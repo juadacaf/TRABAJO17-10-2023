@@ -1,0 +1,130 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo de encabezado */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de enlaces */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de productos */
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product h3 {
+    color: #333;
+    font-size: 18px;
+    margin: 0;
+}
+
+.product p {
+    color: #666;
+    font-size: 14px;
+}
+
+.product a {
+    display: block;
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.product a:hover {
+    background-color: #0055aa;
+}
+
+/* Estilo del carrito de compras */
+.cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    margin: 10px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Estilo de botones */
+.btn {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #0055aa;
+}
+
+/* Estilo del encabezado y pie de página */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+    
